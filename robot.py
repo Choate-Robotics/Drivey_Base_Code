@@ -4,7 +4,7 @@ from wpimath.controller import PIDController
 from drivetrain import Drivetrain
 
 
-class Robot(wpilib.TimedRobot):
+class Robot(TimedRobot):
     
     joy1=Joystick(0)
     
