@@ -35,4 +35,4 @@ class Robot(TimedRobot):
 
 
 if __name__ == "__main__":
-    wpilib.run(Robot)
+    run(Robot)
